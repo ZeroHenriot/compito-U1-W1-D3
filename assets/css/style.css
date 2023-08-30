@@ -1,0 +1,54 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header div>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 0.1rem #fee8af;
+    background-color: #fdfbf1;
+    height: 4rem;
+    color: #004d4c;
+}
+header div>p>span{
+    font-weight: bold;
+}
+.container{
+    width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright-img{
+    text-align: center;
+    color: #808080;
+}
+.featured{
+    border-left: solid 0.1rem #fee8af;
+}
+.featured p{
+    color: red;
+    margin-left: 0.5rem;
+}
+.featured a{
+    margin-left: 0.5rem;
+}
+.ingredients{
+    border-bottom: solid 0.1rem #87cefa;
+}
+.method{
+    border-bottom: solid 0.1rem #87cefa;
+}
+#method li{
+    font-weight: bold;
+}
+footer{
+    width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
