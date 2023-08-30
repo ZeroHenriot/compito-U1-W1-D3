@@ -6,8 +6,9 @@ header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 12.5rem;
 }
-header div>p{
+header div p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +17,16 @@ header div>p{
     height: 4rem;
     color: #004d4c;
 }
-header div>p>span{
+header div p span{
     font-weight: bold;
 }
 .container{
     width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
+}
+.focaccia{
+    width: 100%;
 }
 .copyright-img{
     text-align: center;
